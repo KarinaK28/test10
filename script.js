@@ -33,6 +33,19 @@ const arrObj = {
     5: 'uj'
 };
 
+
+const storeName = 'Lada';
+const storeDescription = {
+    budget: 10000,
+    employees: ['Karina', 'Ivan', 'Anna'],
+    products: {
+        phone: 10000,
+        headset: 200
+    },
+    open: true
+};
+
+
 const test ='f';
 arrObj[test] = 'rrr';
 arrObj.f = 7;
